@@ -114,14 +114,14 @@ _data = {
 "disappear": SubResource("Animation_qviax")
 }
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_kogwv"]
+[sub_resource type="ViewportTexture" id="ViewportTexture_2rio5"]
 viewport_path = NodePath("SubViewport")
 
 [sub_resource type="ShaderMaterial" id="3"]
 resource_local_to_scene = true
 shader = ExtResource("13")
 shader_parameter/displacement_amount = 12.0
-shader_parameter/displacement_mask = SubResource("ViewportTexture_kogwv")
+shader_parameter/displacement_mask = SubResource("ViewportTexture_2rio5")
 
 [sub_resource type="Environment" id="4"]
 background_mode = 3
